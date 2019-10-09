@@ -1,4 +1,4 @@
-# type-writer
+# @vdegenne/type-writer
 
 Web Component that simulates someone typing live on the keyboard.
 
@@ -38,16 +38,16 @@ You can also chose a color for the caret :
 
 ## Installation
 
-```npm i type-writer```
+```npm i @vdegenne/type-writer```
 
 To use it, you can use a server that resolve node module live, and directly use it in your page :
 ```html
-<script type="module" src="/node_modules/type-writer"></script>
+<script type="module" src="/node_modules/@vdegenne/type-writer"></script>
 ```
 
 Or in your application (e.g. typescript)
 ```typescript
-import 'type-writer'
+import '@vdegenne/type-writer'
 ```
 
 ## Options (with defaults)
