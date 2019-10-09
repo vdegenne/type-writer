@@ -42,7 +42,7 @@ You can also chose a color for the caret :
 
 To use it, you can use a server that resolve node module live, and directly use it in your page :
 ```html
-<script type="module" src="/node_modules/@vdegenne/type-writer"></script>
+<script type="module" src="/node_modules/@vdegenne/type-writer.js"></script>
 ```
 
 Or in your application (e.g. typescript)
@@ -54,8 +54,8 @@ import '@vdegenne/type-writer'
 
 ```html
 <type-writer
-  loop="false" <!-- should we start again after last line is written -->
-  speedMultiplier="1" <!-- 2 times faster, use 0.5 to slow 2 times-->
+  loop="false" <!-- should we start again after last line is written ? -->
+  speedMultiplier="1" <!-- use 2 to speed 2 times, use 0.5 to slow 2 times -->
   timeBetween="3" <!-- time to wait before jumping on the next line (seconds) -->
   caretBlinkingSpeed="600" <!-- speed of the caret blinking (milliseconds) -->
 >
