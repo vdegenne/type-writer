@@ -1,0 +1,24 @@
+{
+  "name": "type-writer",
+  "description": "Web Component that simulates someone typing live on the keyboard.",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "author": "Valentin Degenne <vdegenne@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vdegenne/type-writer"
+  },
+  "main": "type-writer.js",
+  "module": "type-writer.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "demo": "es-dev-server --app-index demo.html --node-resolve --open --watch"
+  },
+  "dependencies": {
+    "es-dev-server": "^1.18.3",
+    "lit-element": "^2.2.1",
+    "tslib": "^1.10.0"
+  },
+  "keywords": ["web component", "design"]
+}
