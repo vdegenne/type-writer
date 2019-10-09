@@ -1,7 +1,7 @@
 {
   "name": "@vdegenne/type-writer",
   "description": "Web Component that simulates someone typing live on the keyboard.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "license": "Apache-2.0",
   "author": "Valentin Degenne <vdegenne@gmail.com>",
   "repository": {

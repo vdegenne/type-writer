@@ -51,15 +51,19 @@ class TypeWriter extends LitElement {
         --caret-color: #424242;
       }
       #caret {
+        display:inline-block;
         width: 2px;
         margin-left: 0px;
         background: var(--caret-color);
         transition: opacity .1s linear;
         opacity: 1;
+        color: transparent
       }
     </style>
     <slot name="line" style="display:none"></slot>
-    <span id="line-container"></span><span id="caret"></span>
+    <span>
+    <span id="line-container"></span><span id="caret">a</span>
+    </span>
     `
   }
 
