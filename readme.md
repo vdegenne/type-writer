@@ -14,6 +14,28 @@ Web Component that simulates someone typing live on the keyboard.
 
 [Demo](https://type-writer.glitch.me/)
 
+### Styles
+
+You can style the element using basic css :
+```html
+<style>
+  type-writer {
+    color: red;
+    font-size: 20px;
+  }
+</style>
+```
+
+You can also chose a color for the caret :
+```html
+<style>
+  type-write {
+    --caret-color: red;
+  }
+</style>
+```
+
+
 ## Installation
 
 ```npm i type-writer```
