@@ -4,7 +4,7 @@ Web Component that simulates someone typing live on the keyboard.
 
 ## Usage
 
-```javascript
+```html
 <type-writer>
   <span slot="line">This is the first line</span>
   <span slot="line">This is a second line</span>
