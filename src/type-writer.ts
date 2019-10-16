@@ -68,7 +68,7 @@ class TypeWriter extends LitElement {
   }
 
   resetCaretBlink() {
-    this.caret.style.opacity = '0'
+    this.caret.style.opacity = '1'
     if (this._caretBlinkingInterval) {
       clearInterval(this._caretBlinkingInterval)
       this._caretBlinkingInterval = undefined
@@ -77,11 +77,11 @@ class TypeWriter extends LitElement {
   }
 
   toggleCaret() {
-    if (this.caret.style.opacity !== '0') {
-      this.caret.style.opacity = '0'
+    if (this.caret.style.opacity !== '1') {
+      this.caret.style.opacity = '1'
     }
     else {
-      this.caret.style.opacity = '1'
+      this.caret.style.opacity = '0'
     }
   }
 
