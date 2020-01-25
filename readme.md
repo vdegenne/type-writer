@@ -1,6 +1,7 @@
 # @vdegenne/type-writer
+A Web Component that simulates someone typing live on the keyboard.
 
-Web Component that simulates someone typing live on the keyboard.
+<img src="type-writer.gif">
 
 ## Usage
 
